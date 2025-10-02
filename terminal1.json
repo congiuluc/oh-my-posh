@@ -31,7 +31,7 @@
             "fetch_status": true
           },
           "style": "diamond",
-          "template": " {{ .HEAD }}{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}",
+          "template": " {{ .HEAD }}",
           "type": "git"
         }
       ],
